@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecurityController {
     @GetMapping("/check")
     public String test(){
-        System.out.println("HIiiiiiiiii");
+        System.out.println("Hi");
         return "It's working..";
     }
 }
